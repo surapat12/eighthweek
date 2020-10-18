@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
-int main()
+void arrange()
 {
 	char str[80], tmp;
 	char* p = str;
@@ -22,7 +22,12 @@ int main()
 	}
 
 	printf("Your word( sort by character ) is : %s\n", str);
-
+	
+}
+int main()
+{
+	arrange();
+	
 
 	return 0;
 }
